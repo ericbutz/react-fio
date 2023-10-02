@@ -1,0 +1,59 @@
+{
+  "name": "react-ts-template",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fioprotocol/fiojs": "1.0.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.3",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.8.4",
+    "web-vitals": "^2.1.4",
+    "@mui/material": "5.10.12",
+    "@emotion/react": "11.10.5",
+    "@emotion/styled": "11.10.5",
+    "node-fetch": "3.2.10",
+    "text-encoding": "0.7.0",
+    "create-hash": "1.2.0",
+    "create-hmac": "1.1.7",
+    "ecurve": "1.0.6",
+    "bigi": "1.4.2",
+    "assert": "2.0.0",
+    "bs58": "5.0.0",
+    "randombytes": "2.1.0",
+    "cipher-base": "1.0.4",
+    "readable-stream": "4.2.0",
+    "stream": "0.0.2",
+    "buffer": "6.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
